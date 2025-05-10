@@ -1,0 +1,37 @@
+.white {
+    color: #222;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.white:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.btn-facebook {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+    background-color: #145dbf;
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+.btn-facebook:active {
+    background-color: #0e4aa8;
+    transform: translateY(0);
+}

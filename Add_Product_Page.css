@@ -1,0 +1,92 @@
+body {
+    background-color: #121212;
+    padding: 40px;
+    font-family: 'Cinzel', serif;
+    color: #e0e0e0;
+}
+
+.add-product-container {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.1);
+    border-left: 5px solid #e53935;
+}
+
+.add-product-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #e53935;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.form-control {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    border: 1px solid #444;
+}
+
+.form-control:focus {
+    background-color: #2c2c2c;
+    color: #fff;
+    border-color: #e53935;
+    box-shadow: 0 0 5px rgba(229, 57, 53, 0.5);
+}
+
+select.form-control {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    border: 1px solid #444;
+    padding: 8px 12px;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.form-control:focus {
+    background-color: #2c2c2c;
+    border-color: #e53935;
+    color: #fff;
+}
+
+.btn {
+    margin-right: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.btn-success {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #388e3c;
+    border-color: #388e3c;
+}
+
+.btn-default {
+    background-color: #424242;
+    color: white;
+    border: none;
+}
+
+.btn-default:hover {
+    background-color: #616161;
+}
